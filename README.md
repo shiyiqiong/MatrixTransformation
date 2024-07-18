@@ -5,7 +5,26 @@ Unity版本：Unity 2022.3.17f1c1。
 - 缩放转换：ScaleTransformation
 - 旋转转换：RotationTransformation
 ***
-矩阵计算：两个 2×2 矩阵相乘。
+旋转转换基础：以Z轴旋转为例。
+- Unity使用左手坐标系：Z轴将逆时针旋转。
+
+  ![image](https://github.com/user-attachments/assets/4f45bef6-96b3-42fd-b4e0-09fdda82cda3)
+
+- （1,0）和（0,1）对应0度，90度和180度。
+
+   ![image](https://github.com/user-attachments/assets/2021138f-5ec5-4e78-8b23-b3c0fcf7425a)
+
+- Z轴旋转时，坐标z不变，x和y坐标发送相应变化：
+  - (x, y)；
+  - x(1, 0) + y(0, 1)；
+  - x(cosZ, sizeZ) + y(-sinZ, cosZ)；
+  - (xcosZ-ysinZ, xsinZ+ycosZ)。
+- 对应矩阵转换：
+
+  ![image](https://github.com/user-attachments/assets/7167b353-d20a-406c-ab4a-f897c1d376f7)
+
+***
+矩阵基础：两个 2×2 矩阵相乘。
 
 ![image](https://github.com/user-attachments/assets/4b43c5fc-4cb2-404a-be8b-c0f51cabb7fa)
 
