@@ -14,7 +14,11 @@ Unity版本：Unity 2022.3.17f1c1。
 
    ![image](https://github.com/user-attachments/assets/2021138f-5ec5-4e78-8b23-b3c0fcf7425a)
 
-- Z轴旋转时，坐标z不变，x和y坐标发送相应变化：
+- 从（1,0）开始，正弦波与Y坐标匹配，余弦波与X坐标匹配：
+
+  ![image](https://github.com/user-attachments/assets/a7931c6b-44e5-458e-8f31-1a77a72b5ffe)
+
+- Z轴旋转时，坐标z不变，x和y坐标发生相应变化：
   - (x, y)；
   - x(1, 0) + y(0, 1)；
   - x(cosZ, sizeZ) + y(-sinZ, cosZ)；
