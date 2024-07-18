@@ -21,7 +21,8 @@ Unity版本：Unity 2022.3.17f1c1。
     - x[-w , w]；
     - y[-w , w]；
     - z[-w, w]；
-    - w[Near, Far]。   
+    - w[Near, Far]。
+  - 判断坐标是否在视锥体外部，-w<= x/y/z <= w 的话则点在视锥体内部。 
 - 归一化设备坐标：NDC：float4；
 - 屏幕空间：SS：float2；
 - 视口空间：VP：float2。
