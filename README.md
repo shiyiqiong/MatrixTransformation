@@ -6,7 +6,9 @@ Unity版本：Unity 2022.3.17f1c1。
 - 旋转转换：RotationTransformation
 ***
 矩阵计算：两个 2×2 矩阵相乘。
+
 ![image](https://github.com/user-attachments/assets/4b43c5fc-4cb2-404a-be8b-c0f51cabb7fa)
+
 ***
 转换矩阵：
 - 位置转换矩阵：
@@ -24,6 +26,17 @@ Unity版本：Unity 2022.3.17f1c1。
 
     ![image](https://github.com/user-attachments/assets/68d2c70c-b04d-454a-b4ae-b9bb559cc790)
 
-  - X轴旋转转换矩阵：
   - Y轴旋转转换矩阵：
+
+    ![image](https://github.com/user-attachments/assets/e17126f5-0d90-4528-b8ad-e41f239e48d5)
+
+  - X轴旋转转换矩阵：
+
+    ![image](https://github.com/user-attachments/assets/84c16d60-d786-4365-aeee-63bf2b2e24ab)
+
+  -  X*(Y*Z)旋转转换矩阵：
+
+     ![image](https://github.com/user-attachments/assets/d00131e9-13ba-497f-9f1f-0f22e964af37)
+
+
 
