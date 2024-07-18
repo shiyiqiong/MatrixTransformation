@@ -24,9 +24,22 @@ Unity版本：Unity 2022.3.17f1c1。
     - w[Near, Far]。
   - 判断坐标是否在视锥体外部，-w<= x/y/z <= w 的话则点在视锥体内部。 
 - 归一化设备坐标：NDC：float4；
+  - 用齐次坐标系的w分量去除以x、y、z分量。
+  - 范围：
+    - x[-1 , 1]；
+    - y[-1 , 1]；
+    - z[-w, w]：posNDC.z == posCS.z；
+    - w[Near, Far]：posNDC.w == posCS.w。  
 - 屏幕空间：SS：float2；
+  - 屏幕X轴和Y轴坐标；
+  - 范围：
+    - x[0, ScreenPixelWidth]；
+    - y[0, ScreenPixelWidth]；  
 - 视口空间：VP：float2。
-
+  - 归一化后屏幕X轴和Y轴坐标；
+  - 范围：
+    - x[0, 1]；
+    - y[0, 1]。 
 参考资料：
 
 https://zhuanlan.zhihu.com/p/447671623
