@@ -1,5 +1,22 @@
 Unity版本：Unity 2022.3.17f1c1。
 ***
+坐标空间分类：
+- 纹理空间（UV坐标）：UV；
+- 切线空间（表面贴图空间）：TS；
+- 模型空间：OS；
+- 世界空间：WS；
+- 视图空间：VS；
+- 齐次裁剪空间：CS；
+- 归一化设备坐标：NDC；
+- 屏幕空间：SS；
+- 视口空间：VP。
+
+参考资料：
+
+https://zhuanlan.zhihu.com/p/447671623
+
+https://zhuanlan.zhihu.com/p/505030222?utm_id=0&wd=&eqid=8158199c0001fd4300000004646d6970
+***
 组件实现：
 - 位置转换：PositionTransformation
 - 缩放转换：ScaleTransformation
@@ -61,5 +78,6 @@ Unity版本：Unity 2022.3.17f1c1。
 
      ![image](https://github.com/user-attachments/assets/d00131e9-13ba-497f-9f1f-0f22e964af37)
 
+参考资料：https://catlikecoding.com/unity/tutorials/rendering/part-1/
 
 
